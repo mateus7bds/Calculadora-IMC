@@ -1,0 +1,31 @@
+<DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Mateus Barbosa da Silva">
+	<meta name="description" content="Calculadora IMC">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="">
+	<link rel="stylesheet" href="style.css">
+	<title>Calculadora IMC</title>
+</head>
+<body>
+	<div id="tudo">
+		<div id="calculadora">
+			<div id="titulo">
+				<h1>Calculadora IMC</h1>
+			</div>
+			<div class="input">
+				<label for="inAltura">Altura:</label> 
+				<input type="text" id="inAltura" autofocus="on" name="altura" class="campo" placeholder="Altura(m)" required="on">
+			</div>
+			<div class="input">
+			<label for="inPeso">Peso:</label>
+			<input type="text" id="inPeso" name="peso" class="campo" placeholder="Peso(Kg)" required="on"></div>
+			<button id="btCalcular">Calcular IMC</button>
+			<div id="resultado"></div>
+		</div>
+	</div>
+	<script src="script.js" defer="on"></script>
+</body>
+</html>
